@@ -13,7 +13,10 @@ public class Intervalo {
         // Get the second number
         System.out.print("Enter the second number: ");
         int secondNumber = scanner.nextInt();
-
+        
+        System.out.print("Enter the second number: ");
+        int thirdNumber = scanner.nextInt();
+        
         // Close the scanner to prevent resource leak
         scanner.close();
 
@@ -27,6 +30,11 @@ public class Intervalo {
                 System.out.println(i);
                 i = i +6;
             }
+        }
+        if (thirdNumber <= secondNumber && thirdNumber >= firstNumber) {
+        	
+        	System.out.println(thirdNumber);
+        	
         }
     }
 }
