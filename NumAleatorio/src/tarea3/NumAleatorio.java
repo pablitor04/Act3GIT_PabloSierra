@@ -9,7 +9,7 @@ public class NumAleatorio {
 
         
         System.out.println("20 Random Numbers:");
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 30; i++) {
             int randomNumber = random.nextInt(10)+1; 
             System.out.println(randomNumber);
         }
